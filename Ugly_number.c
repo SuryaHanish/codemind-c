@@ -19,13 +19,14 @@ int main()
         }
         else
         {
-            printf("Not Ugly Number");
-            x=1;
-            break;
+        printf("Not Ugly Number");
+        x=1;
+        break;
         }
-    }    
+    }
     if(x==0)
     {
         printf("Ugly Number");
     }
+    return 0;
 }
